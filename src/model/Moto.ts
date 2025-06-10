@@ -40,7 +40,9 @@ export class Moto extends Veiculo {
         }
 
         super.visualizar()
-    console.log(`       Cilindradas: ${this._cilindrada}`)
-        console.log(`       Partida: ${partida}`)
+    console.log(
+        `           Cilindradas: ${this._cilindrada}`)
+    console.log(
+        `           Partida: ${partida}`)
     }
 }
